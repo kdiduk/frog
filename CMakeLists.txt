@@ -21,8 +21,11 @@ add_library(${FROG_TARGET} SHARED "")
 target_link_libraries(${FROG_TARGET} ${SDL2_LIBRARIES})
 
 target_compile_options(${FROG_TARGET} PRIVATE -Wall -Wextra -pedantic)
-include_directories("/usr/include/SDL2") # <<== Linux only
-include_directories(include)
+
+target_include_directories(${FROG_TARGET} PUBLIC include)
+
+# NOTE: Linux only
+target_include_directories(${FROG_TARGET} PRIVATE "/usr/include/SDL2")
 
 add_subdirectory(src)
 
