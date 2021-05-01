@@ -8,7 +8,6 @@
 #include "frog/rect.h"
 #include "frog/vec.h"
 
-
 namespace frog {
 
     class texture;
