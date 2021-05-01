@@ -50,8 +50,8 @@ namespace frog {
     protected:
         void render(const renderer& rr) const override;
 
-        void finger_down_event(math::vec<int> pos) override;
-        void finger_up_event(math::vec<int> pos) override;
+        void finger_down_event(vec<int> pos) override;
+        void finger_up_event(vec<int> pos) override;
 
     private:
         std::shared_ptr<texture> m_texture;

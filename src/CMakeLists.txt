@@ -2,6 +2,7 @@
 
 target_sources(${FROG_TARGET}
     PRIVATE
+        button.cpp
         camera.cpp
         node.cpp
         rect.cpp
