@@ -1,6 +1,6 @@
 //! \file       camera.cpp
 //! \date       12 April, 2021
-//! \copyright  GPL-3.0 License
+//! \copyright  MIT License
 
 
 #include "frog/camera.h"

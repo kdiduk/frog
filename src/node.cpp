@@ -1,6 +1,6 @@
 //! \file       node.cpp
 //! \date       21 April, 2021
-//! \copyright  GPL-3.0 License
+//! \copyright  MIT License
 
 #include "frog/node.h"
 
