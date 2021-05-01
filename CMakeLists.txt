@@ -14,11 +14,12 @@ set(FROG_TARGET frog)
 # find SDL2 library
 include(FindPkgConfig)
 pkg_search_module(SDL2 REQUIRED sdl2)
+pkg_search_module(SDL2IMAGE REQUIRED SDL2_image)
 
 set(CMAKE_CXX_STANDARD 17)
 
 add_library(${FROG_TARGET} SHARED "")
-target_link_libraries(${FROG_TARGET} ${SDL2_LIBRARIES})
+target_link_libraries(${FROG_TARGET} ${SDL2_LIBRARIES} ${SDL2IMAGE_LIBRARIES})
 
 target_compile_options(${FROG_TARGET} PRIVATE -Wall -Wextra -pedantic)
 

@@ -47,7 +47,7 @@ namespace frog {
         //! \brief Returns the renderer object associated with the window
         //! of the program.
         //!
-        const renderer& renderer() const;
+        const class renderer& renderer() const;
 
         void change_scene(std::shared_ptr<scene> s);
 

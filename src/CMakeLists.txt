@@ -9,6 +9,7 @@ target_sources(${FROG_TARGET}
         sdl_renderer.cpp
         sprite.cpp
         texture_id.cpp
+        texture_impl.cpp
 ) # target_sources
 
 # add_subdirectory(program)
