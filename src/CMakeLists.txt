@@ -5,6 +5,7 @@ target_sources(${FROG_TARGET}
         camera.cpp
         node.cpp
         rect.cpp
+        texture_id.cpp
 ) # target_sources
 
 # add_subdirectory(program)
