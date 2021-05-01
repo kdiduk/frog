@@ -5,6 +5,7 @@ target_sources(${FROG_TARGET}
         camera.cpp
         node.cpp
         rect.cpp
+        sdl_renderer.cpp
         texture_id.cpp
 ) # target_sources
 
