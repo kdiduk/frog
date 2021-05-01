@@ -1,6 +1,6 @@
 //! \file       sprite.h
 //! \date       9 April, 2021
-//! \copyright  GPL-3.0 License
+//! \copyright  MIT License
 
 #ifndef SPRITE_H_A911D9A0_AA1C_4E31_93C0_2747497E1003
 #define SPRITE_H_A911D9A0_AA1C_4E31_93C0_2747497E1003

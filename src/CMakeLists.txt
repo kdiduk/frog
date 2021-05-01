@@ -7,6 +7,7 @@ target_sources(${FROG_TARGET}
         node.cpp
         rect.cpp
         sdl_renderer.cpp
+        sprite.cpp
         texture_id.cpp
 ) # target_sources
 
