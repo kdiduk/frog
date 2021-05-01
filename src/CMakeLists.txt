@@ -2,6 +2,7 @@
 
 target_sources(${FROG_TARGET}
     PRIVATE
+        camera.cpp
         rect.cpp
 ) # target_sources
 
