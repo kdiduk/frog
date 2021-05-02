@@ -1,4 +1,4 @@
-//! \file       canera_renderer.cpp
+//! \file       camera_renderer.cpp
 //! \author     Kirill Diduk (kirill.diduk@mail.ru)
 //! \date       14 April, 2021
 //! \copyright  MIT License
