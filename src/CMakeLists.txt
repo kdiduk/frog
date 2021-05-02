@@ -10,6 +10,7 @@ target_sources(${FROG_TARGET}
         rect.cpp
         sdl_initializer.cpp
         sdl_renderer.cpp
+        sdl_window.cpp
         sprite.cpp
         texture.cpp
         texture_id.cpp
