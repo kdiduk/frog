@@ -1,4 +1,5 @@
 //! \file       sdl_renderer.h
+//! \author     Kirill Diduk (kirill.diduk@mail.ru)
 //! \date       2 April, 2021
 //! \copyright  MIT License
 

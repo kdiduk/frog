@@ -27,7 +27,7 @@ namespace frog {
         scene& operator=(const scene&) = delete;
         scene& operator=(scene&&) = delete;
 
-        std::shared_ptr<camera> camera();
+        std::shared_ptr<class camera> camera();
         void set_camera(std::shared_ptr<class camera> cam);
 
         //! \brief Internal method called in the main game loop.
