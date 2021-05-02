@@ -4,6 +4,7 @@ target_sources(${FROG_TARGET}
     PRIVATE
         button.cpp
         camera.cpp
+        camera_renderer.cpp
         node.cpp
         rect.cpp
         sdl_renderer.cpp
