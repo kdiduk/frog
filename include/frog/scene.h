@@ -1,4 +1,5 @@
 //! \file       scene.h
+//! \author     Kirill Diduk (kirill.diduk@mail.ru)
 //! \date       7 April, 2021
 //! \copyright  MIT License
 

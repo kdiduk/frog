@@ -6,8 +6,10 @@ target_sources(${FROG_TARGET}
         camera.cpp
         camera_renderer.cpp
         node.cpp
+        program.cpp
         program_impl.cpp
         rect.cpp
+        scene.cpp
         sdl_initializer.cpp
         sdl_renderer.cpp
         sdl_window.cpp

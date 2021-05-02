@@ -1,6 +1,6 @@
 //! \file       program.h
 //! \brief      Contains definition of `program` class.
-//!
+//! \author     Kirill Diduk (kirill.diduk@mail.ru)
 //! \date       27 March, 2021
 //! \copyright  MIT License
 
