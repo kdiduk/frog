@@ -29,5 +29,6 @@ target_include_directories(${FROG_TARGET} PUBLIC include)
 target_include_directories(${FROG_TARGET} PRIVATE "/usr/include/SDL2")
 
 add_subdirectory(src)
+add_subdirectory(examples)
 
 # EOF
