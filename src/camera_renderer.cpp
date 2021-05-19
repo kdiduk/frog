@@ -16,7 +16,7 @@ namespace frog {
 
     }
 
-    vec<short> camera_renderer::resolution() const
+    vec<int> camera_renderer::resolution() const
     {
         return m_renderer.resolution();
     }

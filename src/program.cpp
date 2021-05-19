@@ -69,7 +69,7 @@ namespace frog {
         m_pimpl->current_scene = std::move(s);
     }
 
-    vec<short> program::window_size() const
+    vec<int> program::window_size() const
     {
         return renderer().resolution();
     }

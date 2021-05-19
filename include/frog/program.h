@@ -52,7 +52,7 @@ namespace frog {
         void change_scene(std::shared_ptr<scene> s);
 
         //! \brief Returns program's window logical size in pixels
-        vec<short> window_size() const;
+        vec<int> window_size() const;
 
         //! \brief Returns a pointer to the instance of the class `program`
         //! or `nullptr` if no such instance has been created yet.

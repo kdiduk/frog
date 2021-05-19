@@ -18,7 +18,7 @@ namespace frog {
     public:
         camera_renderer(const renderer& rr, const camera& cam);
 
-        vec<short> resolution() const override;
+        vec<int> resolution() const override;
         void clear_target() const override;
         void render_texture(const texture& tx,
                 const rect& dst_rect) const override;

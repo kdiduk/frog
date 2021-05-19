@@ -24,10 +24,10 @@ namespace frog {
     //!
     class sdl_renderer : public renderer {
     public:
-        sdl_renderer(SDL_Renderer* r, vec<short> resolution);
+        sdl_renderer(SDL_Renderer* r, vec<int> resolution);
         ~sdl_renderer();
 
-        vec<short> resolution() const override;
+        vec<int> resolution() const override;
         void clear_target() const override;
         void render_texture(const texture& tx,
                 const rect& dest_rect) const override;
@@ -44,7 +44,7 @@ namespace frog {
         };
 
         std::unique_ptr<SDL_Renderer, renderer_deleter> m_renderer;
-        vec<short> m_resolution;
+        vec<int> m_resolution;
     }; // class sdl_renderer
 
 } // namespace frog

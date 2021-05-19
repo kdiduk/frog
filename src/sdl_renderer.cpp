@@ -13,7 +13,7 @@
 
 namespace frog {
 
-    sdl_renderer::sdl_renderer(SDL_Renderer* rr, vec<short> res)
+    sdl_renderer::sdl_renderer(SDL_Renderer* rr, vec<int> res)
         : m_renderer(rr),
           m_resolution{std::move(res)}
     {
@@ -33,7 +33,7 @@ namespace frog {
 
     sdl_renderer::~sdl_renderer() = default;
 
-    vec<short> sdl_renderer::resolution() const
+    vec<int> sdl_renderer::resolution() const
     {
         return m_resolution;
     }

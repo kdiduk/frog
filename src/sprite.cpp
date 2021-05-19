@@ -6,6 +6,7 @@
 
 #include "frog/rect.h"
 #include "frog/texture.h"
+#include "frog/vec_operations.h"
 #include "renderer.h"
 
 
@@ -23,6 +24,11 @@ namespace frog {
     vec<int>& sprite::position()
     {
         return m_position;
+    }
+
+    void sprite::move_by(const vec<int>& dv)
+    {
+        m_position += dv;
     }
 
     void sprite::render(const renderer& rr) const

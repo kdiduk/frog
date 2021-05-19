@@ -29,6 +29,15 @@ namespace frog {
 
         vec<int>& position();
 
+        //! \brief Moves the sprite from the current position
+        //! along the specified vector.
+        //!
+        //! \details Effectively changes the current position of the sprite
+        //! by adding the specified vector to the current position.
+        //!
+        //! \param dv - vector along which the sprite is moved
+        void move_by(const vec<int>& dv);
+
     protected:
         //! \brief Renders the sprite using the specified renderer.
         void render(const renderer& rr) const override;

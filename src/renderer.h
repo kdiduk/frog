@@ -14,7 +14,7 @@ namespace frog {
 
     class renderer {
     public:
-        virtual vec<short> resolution() const = 0;
+        virtual vec<int> resolution() const = 0;
         virtual void clear_target() const = 0;
         virtual void render_texture(
                 const texture& tx, const rect& dst_rect) const = 0;
