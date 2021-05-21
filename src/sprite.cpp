@@ -21,9 +21,16 @@ namespace frog {
     {
     }
 
-    vec<int>& sprite::position()
+    const vec<int>& sprite::position() const
     {
         return m_position;
+    }
+
+    vec<int> sprite::size() const
+    {
+        return vec<int>{
+                m_texture->width() * m_scale.x,
+                m_texture->height() * m_scale.y};
     }
 
     void sprite::move_by(const vec<int>& dv)
@@ -33,10 +40,7 @@ namespace frog {
 
     void sprite::render(const renderer& rr) const
     {
-        vec<int> size{
-                m_texture->width() * m_scale.x,
-                m_texture->height() * m_scale.y};
-        rr.render_texture(*m_texture, rect(m_position, size));
+        rr.render_texture(*m_texture, rect(m_position, size()));
     }
 
 } // namespace frog

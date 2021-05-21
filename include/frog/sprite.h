@@ -27,7 +27,9 @@ namespace frog {
                 vec<int> pos = {0, 0},
                 vec<int> scale = {1, 1});
 
-        vec<int>& position();
+        const vec<int>& position() const;
+
+        vec<int> size() const;
 
         //! \brief Moves the sprite from the current position
         //! along the specified vector.
