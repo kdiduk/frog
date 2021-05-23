@@ -10,7 +10,7 @@
 #include <memory>
 
 #include "frog/scene.h"
-#include "frog/sprite.h"
+#include "ball.h"
 
 namespace pong {
     class game_scene
@@ -24,14 +24,7 @@ namespace pong {
         void update(unsigned delta) override;
 
     private:
-
-        bool ball_hits_top() const;
-        bool ball_hits_bottom() const;
-        bool ball_hits_left() const;
-        bool ball_hits_right() const;
-
-        std::shared_ptr<frog::sprite> m_ball_sprite;
-        frog::vec<int> m_ball_speed_vector;
+        std::shared_ptr<ball> m_ball;
     };
 }
 
